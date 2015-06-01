@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <h:outputStylesheet library="tema" name="css/style.css" />
+    </h:head>
+    <h:body>
+        <div class="sayfa">
+            <div class="up">
+                <ui:insert name="up">
+                    <ui:include src="up.xhtml" />
+                </ui:insert>
+            </div>
+            
+            <div class="main">
+                <ui:insert name="main">
+                    <ui:include src="main.xhtml" />
+                </ui:insert>
+            </div>
+            
+            <div class="down">
+                <ui:insert name="down">
+                    <ui:include src="down.xhtml" />
+                </ui:insert>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </h:body>
+</html>

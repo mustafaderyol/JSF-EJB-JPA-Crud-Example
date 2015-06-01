@@ -1,0 +1,46 @@
+body
+{
+    background: #EEEEEE;
+    margin:0px;
+    padding:0px;
+}
+.sayfa
+{
+    width: 950px;
+    min-height: 300px;
+    margin:0 auto;
+}
+
+.up
+{
+    width: 100%;
+    border: 1px solid #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+
+.main
+{
+    width: 100%;
+    border: 1px solid #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.down
+{
+    width: 100%;
+    min-height: 20px;
+    font-size:10px;
+    text-align: center;
+    line-height: 10px;
+    border: 1px solid #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

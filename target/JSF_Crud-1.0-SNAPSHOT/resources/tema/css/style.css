@@ -1,0 +1,30 @@
+body
+{
+    background: #EEEEEE;
+    margin:0px;
+    padding:0px;
+}
+.sayfa
+{
+    width: 950px;
+    min-height: 300px;
+    margin:0 auto;
+}
+
+.up
+{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+
+.main
+{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+}
